@@ -1,0 +1,9 @@
+name = Aeon5 
+description = A simple, minimalistic, fixed width theme.
+backdrop = 1.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/hamburger.js
+

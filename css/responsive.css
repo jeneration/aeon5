@@ -1,0 +1,73 @@
+@media all and (min-width: 340px) {
+  .l-header {
+    height: 110px;
+    padding: 15px;
+  }
+  a.logo {
+    display: block;
+  }
+  .name-and-slogan {
+    text-align: left;
+    float: left;
+  }
+  .l-header .block-menu {
+    top: 108px;
+  }
+  .l-header .block-menu a.hamburger {
+    top: -38px;
+  }
+}
+@media all and (min-width: 420px) {
+  .site-name {
+    margin: .425em 0 0 0;
+    font-size: 2em;
+  }
+}
+@media all and (min-width: 640px) {
+  .header-menu {
+    display: block;
+  }
+  .l-header .block-menu {
+    bottom: 0px;
+    top: auto;
+    width: auto;
+  }
+  .l-header .block-menu ul.menu {
+    border: 0;
+    background: transparent;
+    display: block;
+  }
+  .l-header .block-menu li.leaf {
+    display: inline;
+    padding: 0;
+    border: 0;
+  }
+  .l-header .block-menu a {
+    display: inline-block;
+    padding: 4px 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .l-header .block-menu a:hover {
+    border-radius: 5px 5px 0 0; /* top left, top right, bottom right, bottom left */
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+  }
+  .l-header .block-menu a.hamburger {
+    display: none;
+  }
+}
+@media all and (min-width: 851px) {
+  #page-title {
+    margin-left: -26px;
+  }
+
+  .layout {
+    max-width: 960px;
+    margin: 0 auto 30px auto;
+    -webkit-box-shadow: 0 1px 30px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+}
